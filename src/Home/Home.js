@@ -77,7 +77,6 @@ class Home extends Component{
             location: data.location,
             nearbyRestaurants: data.nearby_restaurants
         })
-        console.log(this.state.location.entity_id)
     }
 
     async searchRestaurant(query){ 
@@ -99,8 +98,6 @@ class Home extends Component{
                 restaurants: data.restaurants
             })
 
-            console.log(this.state.restaurants);
-
             setTimeout(() => {
                 this.setState({
                     display:true,
@@ -116,7 +113,6 @@ class Home extends Component{
     }
 
     modalOn = (item) =>{
-        console.log(item);
             this.initMap(item.location);
         
             const{name, phone_numbers, location} = item
@@ -139,7 +135,6 @@ class Home extends Component{
     initMap(location) {
         var sydney = new google.maps.LatLng(location.latitude, location.longitude);
 
-        const infowindow = new google.maps.InfoWindow();
 
         const map = new google.maps.Map(
             document.getElementById('map'), {center: sydney, zoom: 15});
@@ -158,10 +153,6 @@ class Home extends Component{
                 map: map,
                 position: results[i].geometry.location
               });
-/*               google.maps.event.addListener(marker, 'click', function() {
-                infowindow.setContent(results[i].name);
-                infowindow.open(map, this);
-              }); */
             }
 
             map.setCenter(results[0].geometry.location);
