@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wheresthefood/static/css/main.82133062.chunk.css",
+    "main.js": "/wheresthefood/static/js/main.c75d1bb3.chunk.js",
+    "main.js.map": "/wheresthefood/static/js/main.c75d1bb3.chunk.js.map",
+    "runtime-main.js": "/wheresthefood/static/js/runtime-main.15dc41d8.js",
+    "runtime-main.js.map": "/wheresthefood/static/js/runtime-main.15dc41d8.js.map",
+    "static/js/2.e3a07384.chunk.js": "/wheresthefood/static/js/2.e3a07384.chunk.js",
+    "static/js/2.e3a07384.chunk.js.map": "/wheresthefood/static/js/2.e3a07384.chunk.js.map",
+    "index.html": "/wheresthefood/index.html",
+    "precache-manifest.9acb456b8caa17f81a00085ec20cb260.js": "/wheresthefood/precache-manifest.9acb456b8caa17f81a00085ec20cb260.js",
+    "service-worker.js": "/wheresthefood/service-worker.js",
+    "static/css/main.82133062.chunk.css.map": "/wheresthefood/static/css/main.82133062.chunk.css.map",
+    "static/js/2.e3a07384.chunk.js.LICENSE.txt": "/wheresthefood/static/js/2.e3a07384.chunk.js.LICENSE.txt",
+    "static/media/defaultImage.jpg": "/wheresthefood/static/media/defaultImage.e0b45e7f.jpg",
+    "static/media/loading.gif": "/wheresthefood/static/media/loading.1151080c.gif",
+    "static/media/star.png": "/wheresthefood/static/media/star.45dd5470.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15dc41d8.js",
+    "static/js/2.e3a07384.chunk.js",
+    "static/css/main.82133062.chunk.css",
+    "static/js/main.c75d1bb3.chunk.js"
+  ]
+}
